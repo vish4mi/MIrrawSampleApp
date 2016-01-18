@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9BAD1121C4CA9D700CAE73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1111C4CA9D700CAE73B /* main.m */; };
+		A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */; };
+		A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */; };
+		A9BAD11B1C4CA9D700CAE73B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD11A1C4CA9D700CAE73B /* ViewController.m */; };
+		A9BAD11E1C4CA9D700CAE73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD11C1C4CA9D700CAE73B /* Main.storyboard */; };
+		A9BAD1201C4CA9D700CAE73B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */; };
+		A9BAD1231C4CA9D700CAE73B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD1211C4CA9D700CAE73B /* LaunchScreen.xib */; };
+		A9BAD12F1C4CA9D700CAE73B /* MirrawSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD12E1C4CA9D700CAE73B /* MirrawSampleAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BAD1291C4CA9D700CAE73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BAD1041C4CA9D700CAE73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BAD10B1C4CA9D700CAE73B;
+			remoteInfo = MirrawSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9BAD10C1C4CA9D700CAE73B /* MirrawSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrawSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BAD1101C4CA9D700CAE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BAD1111C4CA9D700CAE73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9BAD1131C4CA9D700CAE73B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9BAD1171C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MirrawSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		A9BAD1191C4CA9D700CAE73B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9BAD11A1C4CA9D700CAE73B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9BAD11D1C4CA9D700CAE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9BAD1221C4CA9D700CAE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9BAD1281C4CA9D700CAE73B /* MirrawSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrawSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BAD12D1C4CA9D700CAE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BAD12E1C4CA9D700CAE73B /* MirrawSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrawSampleAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BAD1091C4CA9D700CAE73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BAD1251C4CA9D700CAE73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BAD1031C4CA9D700CAE73B = {
+			isa = PBXGroup;
+			children = (
+				A9BAD10E1C4CA9D700CAE73B /* MirrawSampleApp */,
+				A9BAD12B1C4CA9D700CAE73B /* MirrawSampleAppTests */,
+				A9BAD10D1C4CA9D700CAE73B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BAD10D1C4CA9D700CAE73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD10C1C4CA9D700CAE73B /* MirrawSampleApp.app */,
+				A9BAD1281C4CA9D700CAE73B /* MirrawSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BAD10E1C4CA9D700CAE73B /* MirrawSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD1131C4CA9D700CAE73B /* AppDelegate.h */,
+				A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */,
+				A9BAD1191C4CA9D700CAE73B /* ViewController.h */,
+				A9BAD11A1C4CA9D700CAE73B /* ViewController.m */,
+				A9BAD11C1C4CA9D700CAE73B /* Main.storyboard */,
+				A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */,
+				A9BAD1211C4CA9D700CAE73B /* LaunchScreen.xib */,
+				A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */,
+				A9BAD10F1C4CA9D700CAE73B /* Supporting Files */,
+			);
+			path = MirrawSampleApp;
+			sourceTree = "<group>";
+		};
+		A9BAD10F1C4CA9D700CAE73B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD1101C4CA9D700CAE73B /* Info.plist */,
+				A9BAD1111C4CA9D700CAE73B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BAD12B1C4CA9D700CAE73B /* MirrawSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD12E1C4CA9D700CAE73B /* MirrawSampleAppTests.m */,
+				A9BAD12C1C4CA9D700CAE73B /* Supporting Files */,
+			);
+			path = MirrawSampleAppTests;
+			sourceTree = "<group>";
+		};
+		A9BAD12C1C4CA9D700CAE73B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD12D1C4CA9D700CAE73B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BAD10B1C4CA9D700CAE73B /* MirrawSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BAD1321C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleApp" */;
+			buildPhases = (
+				A9BAD1081C4CA9D700CAE73B /* Sources */,
+				A9BAD1091C4CA9D700CAE73B /* Frameworks */,
+				A9BAD10A1C4CA9D700CAE73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrawSampleApp;
+			productName = MirrawSampleApp;
+			productReference = A9BAD10C1C4CA9D700CAE73B /* MirrawSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BAD1271C4CA9D700CAE73B /* MirrawSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BAD1351C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleAppTests" */;
+			buildPhases = (
+				A9BAD1241C4CA9D700CAE73B /* Sources */,
+				A9BAD1251C4CA9D700CAE73B /* Frameworks */,
+				A9BAD1261C4CA9D700CAE73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BAD12A1C4CA9D700CAE73B /* PBXTargetDependency */,
+			);
+			name = MirrawSampleAppTests;
+			productName = MirrawSampleAppTests;
+			productReference = A9BAD1281C4CA9D700CAE73B /* MirrawSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BAD1041C4CA9D700CAE73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mirraw;
+				TargetAttributes = {
+					A9BAD10B1C4CA9D700CAE73B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A9BAD1271C4CA9D700CAE73B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A9BAD10B1C4CA9D700CAE73B;
+					};
+				};
+			};
+			buildConfigurationList = A9BAD1071C4CA9D700CAE73B /* Build configuration list for PBXProject "MirrawSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BAD1031C4CA9D700CAE73B;
+			productRefGroup = A9BAD10D1C4CA9D700CAE73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BAD10B1C4CA9D700CAE73B /* MirrawSampleApp */,
+				A9BAD1271C4CA9D700CAE73B /* MirrawSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BAD10A1C4CA9D700CAE73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BAD11E1C4CA9D700CAE73B /* Main.storyboard in Resources */,
+				A9BAD1231C4CA9D700CAE73B /* LaunchScreen.xib in Resources */,
+				A9BAD1201C4CA9D700CAE73B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BAD1261C4CA9D700CAE73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BAD1081C4CA9D700CAE73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */,
+				A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */,
+				A9BAD11B1C4CA9D700CAE73B /* ViewController.m in Sources */,
+				A9BAD1121C4CA9D700CAE73B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BAD1241C4CA9D700CAE73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BAD12F1C4CA9D700CAE73B /* MirrawSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BAD12A1C4CA9D700CAE73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BAD10B1C4CA9D700CAE73B /* MirrawSampleApp */;
+			targetProxy = A9BAD1291C4CA9D700CAE73B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BAD11C1C4CA9D700CAE73B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BAD11D1C4CA9D700CAE73B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9BAD1211C4CA9D700CAE73B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BAD1221C4CA9D700CAE73B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BAD1301C4CA9D700CAE73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9BAD1311C4CA9D700CAE73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9BAD1331C4CA9D700CAE73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MirrawSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9BAD1341C4CA9D700CAE73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MirrawSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9BAD1361C4CA9D700CAE73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MirrawSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MirrawSampleApp.app/MirrawSampleApp";
+			};
+			name = Debug;
+		};
+		A9BAD1371C4CA9D700CAE73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MirrawSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MirrawSampleApp.app/MirrawSampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BAD1071C4CA9D700CAE73B /* Build configuration list for PBXProject "MirrawSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BAD1301C4CA9D700CAE73B /* Debug */,
+				A9BAD1311C4CA9D700CAE73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BAD1321C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BAD1331C4CA9D700CAE73B /* Debug */,
+				A9BAD1341C4CA9D700CAE73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9BAD1351C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BAD1361C4CA9D700CAE73B /* Debug */,
+				A9BAD1371C4CA9D700CAE73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9BAD1171C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodel */,
+			);
+			currentVersion = A9BAD1171C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodel */;
+			path = MirrawSampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9BAD1041C4CA9D700CAE73B /* Project object */;
+}
