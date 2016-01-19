@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+workspace 'MirrawSampleApp'
+xcodeproj 'MirrawSampleApp.xcodeproj'
+
+target 'MirrawSampleApp' do
+xcodeproj 'MirrawSampleApp.xcodeproj'
+pod 'SDWebImage'
+
+end

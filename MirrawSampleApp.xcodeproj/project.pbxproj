@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BD1D3FD815B11A55ABBE25 /* libPods-MirrawSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD55F866321DF949FDD62031 /* libPods-MirrawSampleApp.a */; };
 		A9BAD1121C4CA9D700CAE73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1111C4CA9D700CAE73B /* main.m */; };
 		A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */; };
 		A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */; };
-		A9BAD11B1C4CA9D700CAE73B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD11A1C4CA9D700CAE73B /* ViewController.m */; };
+		A9BAD11B1C4CA9D700CAE73B /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD11A1C4CA9D700CAE73B /* CategoryViewController.m */; };
 		A9BAD11E1C4CA9D700CAE73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD11C1C4CA9D700CAE73B /* Main.storyboard */; };
 		A9BAD1201C4CA9D700CAE73B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */; };
 		A9BAD1231C4CA9D700CAE73B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD1211C4CA9D700CAE73B /* LaunchScreen.xib */; };
 		A9BAD12F1C4CA9D700CAE73B /* MirrawSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD12E1C4CA9D700CAE73B /* MirrawSampleAppTests.m */; };
+		A9BAD13A1C4CBED800CAE73B /* ProductCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1391C4CBED800CAE73B /* ProductCategoryCell.m */; };
+		A9BAD13D1C4CE08200CAE73B /* MirrawService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD13C1C4CE08200CAE73B /* MirrawService.m */; };
+		A9BAD2371C4D024700CAE73B /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD2361C4D024700CAE73B /* CategoryModel.m */; };
+		A9BAD2391C4D1C6500CAE73B /* BlackPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD2381C4D1C6500CAE73B /* BlackPlaceholder.png */; };
+		A9BAD2411C4D4D3200CAE73B /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BAD2401C4D4D3200CAE73B /* libSDWebImage.a */; };
+		A9BAD2441C4DF26400CAE73B /* CategoryItemsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +35,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69C306FC696C390F2836C86B /* Pods-MirrawSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirrawSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		A9BAD10C1C4CA9D700CAE73B /* MirrawSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrawSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BAD1101C4CA9D700CAE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9BAD1111C4CA9D700CAE73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9BAD1131C4CA9D700CAE73B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A9BAD1171C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MirrawSampleApp.xcdatamodel; sourceTree = "<group>"; };
-		A9BAD1191C4CA9D700CAE73B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9BAD11A1C4CA9D700CAE73B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9BAD1191C4CA9D700CAE73B /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		A9BAD11A1C4CA9D700CAE73B /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		A9BAD11D1C4CA9D700CAE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9BAD1221C4CA9D700CAE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A9BAD1281C4CA9D700CAE73B /* MirrawSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrawSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BAD12D1C4CA9D700CAE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9BAD12E1C4CA9D700CAE73B /* MirrawSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrawSampleAppTests.m; sourceTree = "<group>"; };
+		A9BAD1381C4CBED800CAE73B /* ProductCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategoryCell.h; sourceTree = "<group>"; };
+		A9BAD1391C4CBED800CAE73B /* ProductCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategoryCell.m; sourceTree = "<group>"; };
+		A9BAD13B1C4CE08200CAE73B /* MirrawService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MirrawService.h; sourceTree = "<group>"; };
+		A9BAD13C1C4CE08200CAE73B /* MirrawService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MirrawService.m; sourceTree = "<group>"; };
+		A9BAD2351C4D024700CAE73B /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		A9BAD2361C4D024700CAE73B /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		A9BAD2381C4D1C6500CAE73B /* BlackPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackPlaceholder.png; sourceTree = "<group>"; };
+		A9BAD2401C4D4D3200CAE73B /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "Pods/../build/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
+		A9BAD2421C4DF26400CAE73B /* CategoryItemsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItemsCollectionViewController.h; sourceTree = "<group>"; };
+		A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItemsCollectionViewController.m; sourceTree = "<group>"; };
+		AD55F866321DF949FDD62031 /* libPods-MirrawSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MirrawSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD18EF6D023E2E31819C2CA /* Pods-MirrawSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirrawSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BAD2411C4D4D3200CAE73B /* libSDWebImage.a in Frameworks */,
+				01BD1D3FD815B11A55ABBE25 /* libPods-MirrawSampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E209868E7A2641F1F8F5646 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDD18EF6D023E2E31819C2CA /* Pods-MirrawSampleApp.debug.xcconfig */,
+				69C306FC696C390F2836C86B /* Pods-MirrawSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59425CE074057ACF45138600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD2401C4D4D3200CAE73B /* libSDWebImage.a */,
+				AD55F866321DF949FDD62031 /* libPods-MirrawSampleApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9BAD1031C4CA9D700CAE73B = {
 			isa = PBXGroup;
 			children = (
 				A9BAD10E1C4CA9D700CAE73B /* MirrawSampleApp */,
 				A9BAD12B1C4CA9D700CAE73B /* MirrawSampleAppTests */,
 				A9BAD10D1C4CA9D700CAE73B /* Products */,
+				4E209868E7A2641F1F8F5646 /* Pods */,
+				59425CE074057ACF45138600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,13 +127,21 @@
 			children = (
 				A9BAD1131C4CA9D700CAE73B /* AppDelegate.h */,
 				A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */,
-				A9BAD1191C4CA9D700CAE73B /* ViewController.h */,
-				A9BAD11A1C4CA9D700CAE73B /* ViewController.m */,
+				A9BAD1191C4CA9D700CAE73B /* CategoryViewController.h */,
+				A9BAD11A1C4CA9D700CAE73B /* CategoryViewController.m */,
 				A9BAD11C1C4CA9D700CAE73B /* Main.storyboard */,
 				A9BAD11F1C4CA9D700CAE73B /* Images.xcassets */,
 				A9BAD1211C4CA9D700CAE73B /* LaunchScreen.xib */,
 				A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */,
 				A9BAD10F1C4CA9D700CAE73B /* Supporting Files */,
+				A9BAD1381C4CBED800CAE73B /* ProductCategoryCell.h */,
+				A9BAD1391C4CBED800CAE73B /* ProductCategoryCell.m */,
+				A9BAD13B1C4CE08200CAE73B /* MirrawService.h */,
+				A9BAD13C1C4CE08200CAE73B /* MirrawService.m */,
+				A9BAD2351C4D024700CAE73B /* CategoryModel.h */,
+				A9BAD2361C4D024700CAE73B /* CategoryModel.m */,
+				A9BAD2421C4DF26400CAE73B /* CategoryItemsCollectionViewController.h */,
+				A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */,
 			);
 			path = MirrawSampleApp;
 			sourceTree = "<group>";
@@ -99,6 +149,7 @@
 		A9BAD10F1C4CA9D700CAE73B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9BAD2381C4D1C6500CAE73B /* BlackPlaceholder.png */,
 				A9BAD1101C4CA9D700CAE73B /* Info.plist */,
 				A9BAD1111C4CA9D700CAE73B /* main.m */,
 			);
@@ -129,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9BAD1321C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleApp" */;
 			buildPhases = (
+				5AB33DF6B8C7E255DFAFE8EA /* Check Pods Manifest.lock */,
 				A9BAD1081C4CA9D700CAE73B /* Sources */,
 				A9BAD1091C4CA9D700CAE73B /* Frameworks */,
 				A9BAD10A1C4CA9D700CAE73B /* Resources */,
+				FD0B40513A29022C6ACDD7FC /* Embed Pods Frameworks */,
+				E6CCAEFE6418DF300A3DBAE1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +259,7 @@
 				A9BAD11E1C4CA9D700CAE73B /* Main.storyboard in Resources */,
 				A9BAD1231C4CA9D700CAE73B /* LaunchScreen.xib in Resources */,
 				A9BAD1201C4CA9D700CAE73B /* Images.xcassets in Resources */,
+				A9BAD2391C4D1C6500CAE73B /* BlackPlaceholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +272,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AB33DF6B8C7E255DFAFE8EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CCAEFE6418DF300A3DBAE1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0B40513A29022C6ACDD7FC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9BAD1081C4CA9D700CAE73B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BAD13A1C4CBED800CAE73B /* ProductCategoryCell.m in Sources */,
+				A9BAD2371C4D024700CAE73B /* CategoryModel.m in Sources */,
+				A9BAD13D1C4CE08200CAE73B /* MirrawService.m in Sources */,
 				A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */,
 				A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */,
-				A9BAD11B1C4CA9D700CAE73B /* ViewController.m in Sources */,
+				A9BAD2441C4DF26400CAE73B /* CategoryItemsCollectionViewController.m in Sources */,
+				A9BAD11B1C4CA9D700CAE73B /* CategoryViewController.m in Sources */,
 				A9BAD1121C4CA9D700CAE73B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,20 +456,30 @@
 		};
 		A9BAD1331C4CA9D700CAE73B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD18EF6D023E2E31819C2CA /* Pods-MirrawSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MirrawSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		A9BAD1341C4CA9D700CAE73B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C306FC696C390F2836C86B /* Pods-MirrawSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MirrawSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +537,7 @@
 				A9BAD1341C4CA9D700CAE73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BAD1351C4CA9D700CAE73B /* Build configuration list for PBXNativeTarget "MirrawSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +546,7 @@
 				A9BAD1371C4CA9D700CAE73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
