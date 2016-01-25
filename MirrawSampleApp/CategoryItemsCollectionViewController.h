@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoryModel.h"
 
-@interface CategoryItemsCollectionViewController : UICollectionViewController
+@interface CategoryItemsCollectionViewController : UIViewController
+
+@property (nonatomic, strong) CategoryModel *categoryModel;
 
 @end

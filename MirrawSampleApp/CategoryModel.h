@@ -14,5 +14,7 @@
 @property (nonatomic, strong) UIImage *categoryMainImage;
 @property (nonatomic, strong) UIImage *categoryOriginalImage;
 @property (nonatomic, strong) NSString *categoryName;
+@property (nonatomic, strong) NSString *categoryKey;
+@property (nonatomic, strong) NSString *categoryValue;
 
 @end

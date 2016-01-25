@@ -12,5 +12,9 @@
 
 @property (nonatomic, strong) IBOutlet UIImageView *catImage;
 @property (nonatomic, strong) IBOutlet UILabel *catTitle;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *categoryCellHeightConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *categoryTitleHeightConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *categoryImageWidthConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *categoryTitleWidthConstraint;
 
 @end

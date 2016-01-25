@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01BD1D3FD815B11A55ABBE25 /* libPods-MirrawSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD55F866321DF949FDD62031 /* libPods-MirrawSampleApp.a */; };
+		A993C7471C560E5A009D2A54 /* MRCategoryCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A993C7461C560E5A009D2A54 /* MRCategoryCustomLayout.m */; };
 		A9BAD1121C4CA9D700CAE73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1111C4CA9D700CAE73B /* main.m */; };
 		A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1141C4CA9D700CAE73B /* AppDelegate.m */; };
 		A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD1161C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld */; };
@@ -22,6 +23,10 @@
 		A9BAD2391C4D1C6500CAE73B /* BlackPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD2381C4D1C6500CAE73B /* BlackPlaceholder.png */; };
 		A9BAD2411C4D4D3200CAE73B /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BAD2401C4D4D3200CAE73B /* libSDWebImage.a */; };
 		A9BAD2441C4DF26400CAE73B /* CategoryItemsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */; };
+		A9BAD2471C4E037A00CAE73B /* ItemsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD2461C4E037A00CAE73B /* ItemsCollectionViewCell.m */; };
+		A9BAD24A1C4E253700CAE73B /* CategoryItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD2491C4E253700CAE73B /* CategoryItemModel.m */; };
+		A9BAD28E1C50EFD700CAE73B /* CategoryProductsMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD28D1C50EFD700CAE73B /* CategoryProductsMetadata.m */; };
+		A9FEFA101C535CFE00F5D387 /* MRProductCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FEFA0F1C535CFE00F5D387 /* MRProductCustomLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		69C306FC696C390F2836C86B /* Pods-MirrawSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirrawSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		A993C7451C560E5A009D2A54 /* MRCategoryCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCategoryCustomLayout.h; sourceTree = "<group>"; };
+		A993C7461C560E5A009D2A54 /* MRCategoryCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCategoryCustomLayout.m; sourceTree = "<group>"; };
 		A9BAD10C1C4CA9D700CAE73B /* MirrawSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrawSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BAD1101C4CA9D700CAE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9BAD1111C4CA9D700CAE73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +67,14 @@
 		A9BAD2401C4D4D3200CAE73B /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "Pods/../build/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
 		A9BAD2421C4DF26400CAE73B /* CategoryItemsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItemsCollectionViewController.h; sourceTree = "<group>"; };
 		A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItemsCollectionViewController.m; sourceTree = "<group>"; };
+		A9BAD2451C4E037A00CAE73B /* ItemsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsCollectionViewCell.h; sourceTree = "<group>"; };
+		A9BAD2461C4E037A00CAE73B /* ItemsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsCollectionViewCell.m; sourceTree = "<group>"; };
+		A9BAD2481C4E253700CAE73B /* CategoryItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItemModel.h; sourceTree = "<group>"; };
+		A9BAD2491C4E253700CAE73B /* CategoryItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItemModel.m; sourceTree = "<group>"; };
+		A9BAD28C1C50EFD700CAE73B /* CategoryProductsMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryProductsMetadata.h; sourceTree = "<group>"; };
+		A9BAD28D1C50EFD700CAE73B /* CategoryProductsMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryProductsMetadata.m; sourceTree = "<group>"; };
+		A9FEFA0E1C535CFE00F5D387 /* MRProductCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRProductCustomLayout.h; path = "Mirraw Layout/MRProductCustomLayout.h"; sourceTree = "<group>"; };
+		A9FEFA0F1C535CFE00F5D387 /* MRProductCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRProductCustomLayout.m; path = "Mirraw Layout/MRProductCustomLayout.m"; sourceTree = "<group>"; };
 		AD55F866321DF949FDD62031 /* libPods-MirrawSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MirrawSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD18EF6D023E2E31819C2CA /* Pods-MirrawSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirrawSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirrawSampleApp/Pods-MirrawSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +157,16 @@
 				A9BAD2361C4D024700CAE73B /* CategoryModel.m */,
 				A9BAD2421C4DF26400CAE73B /* CategoryItemsCollectionViewController.h */,
 				A9BAD2431C4DF26400CAE73B /* CategoryItemsCollectionViewController.m */,
+				A9BAD2451C4E037A00CAE73B /* ItemsCollectionViewCell.h */,
+				A9BAD2461C4E037A00CAE73B /* ItemsCollectionViewCell.m */,
+				A9BAD2481C4E253700CAE73B /* CategoryItemModel.h */,
+				A9BAD2491C4E253700CAE73B /* CategoryItemModel.m */,
+				A9BAD28C1C50EFD700CAE73B /* CategoryProductsMetadata.h */,
+				A9BAD28D1C50EFD700CAE73B /* CategoryProductsMetadata.m */,
+				A9FEFA0E1C535CFE00F5D387 /* MRProductCustomLayout.h */,
+				A9FEFA0F1C535CFE00F5D387 /* MRProductCustomLayout.m */,
+				A993C7451C560E5A009D2A54 /* MRCategoryCustomLayout.h */,
+				A993C7461C560E5A009D2A54 /* MRCategoryCustomLayout.m */,
 			);
 			path = MirrawSampleApp;
 			sourceTree = "<group>";
@@ -325,12 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BAD2471C4E037A00CAE73B /* ItemsCollectionViewCell.m in Sources */,
 				A9BAD13A1C4CBED800CAE73B /* ProductCategoryCell.m in Sources */,
 				A9BAD2371C4D024700CAE73B /* CategoryModel.m in Sources */,
 				A9BAD13D1C4CE08200CAE73B /* MirrawService.m in Sources */,
+				A9BAD28E1C50EFD700CAE73B /* CategoryProductsMetadata.m in Sources */,
 				A9BAD1181C4CA9D700CAE73B /* MirrawSampleApp.xcdatamodeld in Sources */,
+				A9FEFA101C535CFE00F5D387 /* MRProductCustomLayout.m in Sources */,
 				A9BAD1151C4CA9D700CAE73B /* AppDelegate.m in Sources */,
+				A9BAD24A1C4E253700CAE73B /* CategoryItemModel.m in Sources */,
 				A9BAD2441C4DF26400CAE73B /* CategoryItemsCollectionViewController.m in Sources */,
+				A993C7471C560E5A009D2A54 /* MRCategoryCustomLayout.m in Sources */,
 				A9BAD11B1C4CA9D700CAE73B /* CategoryViewController.m in Sources */,
 				A9BAD1121C4CA9D700CAE73B /* main.m in Sources */,
 			);

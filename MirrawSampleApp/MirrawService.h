@@ -11,6 +11,7 @@
 #import "CategoryModel.h"
 
 typedef void (^categoryServiceCompletionBlock)(NSArray *categoryArray, NSError *error);
+typedef void (^cItemsServiceCompletionBlock) (NSArray *cItemsArray, id metadata, NSError *error);
 
 @protocol MirrawServicesDelegate <NSObject>
 
@@ -24,5 +25,6 @@ typedef void (^categoryServiceCompletionBlock)(NSArray *categoryArray, NSError *
 @property (nonatomic, weak) id<MirrawServicesDelegate> sDelegate;
 
 - (void)fetchProductCategoryDetails:(categoryServiceCompletionBlock)completionBlock;
+- (void)fetchProductCategoryItemsForModel:(CategoryModel *)cModel withCompletionBlock:(cItemsServiceCompletionBlock)completionBlock;
 
 @end
